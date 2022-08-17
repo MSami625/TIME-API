@@ -55,7 +55,7 @@ text("Your t.IPv6 Address is : (" +ip+ ".)",50,600);
 async function getBackgroundImg(){
 
 
-        var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
+        var response = await fetch("https://worldtimeapi.org/api/timezone/Asia/Kolkata");
         var responseJSON = await response.json();
     
         var datetime = responseJSON.datetime;
